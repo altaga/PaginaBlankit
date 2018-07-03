@@ -113,7 +113,7 @@ h3{}
 h4{}
 h5{}
 h6{}
-p{color: #869093; text-align: justify; text-justify: inter-word ; font-size: 24px; line-height: 26px; padding-bottom: 25px; margin-bottom: 0;}
+p{color: #869093; font-size: 24px; line-height: 26px; padding-bottom: 25px; margin-bottom: 0;   text-align: justify; text-justify: inter-word;}
 
 .ruler{ border-bottom: 2px solid #429bff; margin: 35px 0;}
 
@@ -131,7 +131,8 @@ p{color: #869093; text-align: justify; text-justify: inter-word ; font-size: 24p
 .social ul li a:hover{text-decoration: none;}
 .social .icon{margin-right: 5px;}
 .site-name{text-align: center; padding: 50px 0;}
-.site-name h1{font-size: 900%; color: #fff; line-height: 100%; text-transform: uppercase; font-family: 'open_sansextrabold';text-shadow: 0px 00px 50px #99CCFF;}
+.site-name h1{font-size: 900%; color: #fff; line-height: 100%; text-transform: uppercase; font-family: 'Audiowide';text-shadow: 0px 00px 50px #99CCFF;    text-align: center;
+    text-justify: inter-word;}
 .site-name h5{color: #fff; font-size: 100%; line-height: 100%; font-family: 'open_sanslight';text-shadow: 0px 0px 10px #99CCFF;}
 .icon{
 	color: #00ccff;
@@ -507,7 +508,7 @@ border-radius: 3px 0 0px 3px;
 /* ==========================================================================
    Global styles starts here
    ========================================================================== */
- body{background: url(../img/body.jpg) repeat; margin-top: 95px; margin-bottom: 40px;}
+ body{background: url(../img/body.jpg) repeat; margin-top: 0px; margin-bottom: 40px;}
  h1, h2, h3, h4, h5, h6{
     font-family: 'open_sansbold'; margin: 0;
 }
@@ -517,10 +518,13 @@ h3{}
 h4{}
 h5{}
 h6{}
-p{color: #869093; font-size: 24px; line-height: 26px; padding-bottom: 25px; margin-bottom: 0;}
+p{color: #869093; font-size: 24px; line-height: 26px; padding-bottom: 25px; margin-bottom: 0;   text-align: justify; text-justify: inter-word;}
 
 .ruler{ border-bottom: 2px solid #429bff; margin: 35px 0;}
-
+img {
+  width: 300;
+  height: 300;
+}
 .container{ padding: 0 30px; background: #fff; font-family: 'open_sansregular';}
 .site-header{}
 .top-bar{font-family: 'open_sansregular'; background: #429bff; overflow: hidden; padding: 15px; margin-top: -25px;}
@@ -535,15 +539,15 @@ p{color: #869093; font-size: 24px; line-height: 26px; padding-bottom: 25px; marg
 .social ul li a:hover{text-decoration: none;}
 .social .icon{margin-right: 5px;}
 .site-name{text-align: center; padding: 20px 0;}
-.site-name h1{font-size: 225%; color: #000000; line-height: 225%; text-transform: uppercase; font-family: 'open_sansextrabold';text-shadow: 0px 0px 50px #99CCFF;}
-.site-name h5{color: #bebebe; font-size: 100%; line-height: 100%; font-family: 'open_sanslight';text-shadow: 0px 0px 50px #99CCFF;}
+.site-name h1{font-size: 250%; color: #fff; line-height: 100%; text-transform: uppercase; font-family: 'Audiowide';text-shadow: 0px 00px 50px #99CCFF;margin-bottom: 20px;}
+.site-name h5{color: #bebebe; font-size: 100%; line-height: 100%; font-family: 'open_sanslight';text-shadow: 0px 0px 50px #99CCFF;margin-bottom: 30px;}
 .icon{
 	color: #00ccff;
-font-size: 30px;
+font-size: 26px;
 display: inline-block !important;
 cursor: pointer;
-width: 30px !important;
-height: 30px !important;
+width: 26px !important;
+height: 26px !important;
 border-radius: 50%;
 text-align: center;
 position: relative;
@@ -619,7 +623,7 @@ ul{margin: 0 !important;}
 								border-radius: 3px; text-transform: uppercase; text-shadow: none; box-shadow: none; border: none; display: inline-block;}
 .featured-blocks .block .block-content .btn:hover{color: #fff; background: #6f7678; border: none;}
 
-.featured-slider{background: url(../img/dot.jpg) repeat-x 0 75px; padding: 55px 0; border-bottom:1px solid #d7dee0; text-align: center; }
+.featured-slider{background: url(../img/dot.jpg) repeat-x 0 75px; padding: 0px 0; border-bottom:1px solid #d7dee0; text-align: center; }
 .featured-slider h1{display: inline-block;background: #fff; padding: 0 20px; color: #6f7678; font-size: 34px; font-family: 'open_sansextrabold'; text-transform: uppercase;}
 .featured-slider h5{color: #429bff; font-size: 24px; font-family: 'open_sansregular';}
 
@@ -659,7 +663,7 @@ opacity: 1.0;
 .featured-content .block .block-content{}
 .featured-content .block .block-content .btn{font-family: 'open_sansextrabold'; color: #fff; font-size: 14px; background: #429bff; padding: 8px;
 								border-radius: 3px; text-transform: uppercase; text-shadow: none; box-shadow: none; border: none;}
-.featured-content .block .block-content .btn:hover{color: #fff; background: #6f7678; border: none;}
+.featured-content .block .block-content .btn:hover{color: #fff; background: #429bff; border: none;}
 
 .featured-accordion{}
 .featured-accordion .accordion-group{ margin-bottom: 10px;}
